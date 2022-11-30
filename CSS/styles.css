@@ -1,7 +1,85 @@
+/* Main page styles */
 body {
     background-color: #404040;
-    color: aliceblue;
+    color: #f5f5f5;
+    margin: 10px;
 }
-.icon {
-    background: #ffffff;
-}
+
+/* Class Styles */
+
+    /* Header Styles */
+    .header {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    /* Navigation Menu Styles */
+    .navigationMain {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        }
+    .navigationMain a {
+        float: left;
+        display: block;
+        padding: 10px 50px;
+        background-color: var(body(background-color));
+        text-align: center;
+        color: var(body(color));
+        }
+        .navigationMain a:hover {
+            background-color: #8115a1;
+            border-radius: 5px;
+        }
+
+
+    /* Content Styles */
+
+    .contents {
+        width: auto;
+    }
+
+
+    .contents:after {
+        content: none;
+        display: table;
+        clear: both;
+    }
+
+    .contentLeft {
+        float: left;
+        width: 20%;
+        padding: 0px;
+        border: solid 1px #f5f5f5;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        text-align: center;
+    }
+
+    .contentMain {
+        float: left;
+        width: 50%;
+        padding: 0px;
+        border: solid 1px #f5f5f5;
+        text-align: center;
+    }
+
+    .contentRight {
+        float: left;
+        width: 20%;
+        padding: 0px;
+        border: solid 1px #f5f5f5;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        text-align: center;
+    }
+
+    .contentFooter {
+        float: left;
+        width: 100%;
+        border-top: solid 1px #c5c5c5;
+        margin-top: 50px;
+        text-align: center;
+        
+    }

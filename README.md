@@ -1,2 +1,2 @@
 # about
-Ryan Baumann  about me website hosted on GitHub Pages
+About me site hosted on GitHub Pages

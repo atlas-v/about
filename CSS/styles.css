@@ -22,25 +22,37 @@ body {
 .navbar_main {
     position: sticky;
     list-style-type: none;
+    white-space: nowrap;
     z-index: 1;
     top: 0;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background: #ffffff;
+    overflow: none;
+    background: #fffffa;
     border-radius: 2px 2px 0 0;
+    color: #404040;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* Nav bar link styles */
-.navbar_main a {
-    float: left;
+.navbar_main li {
     display: inline-block;
-    padding: 10px 40px;
+    padding: 10px 20px;
     text-align: center;
     color: var(body(color));
 }
-.navbar_main a:hover {
-    background-color: #c4c4c4;
-    color: #e1e1e1;
+.navbar_main li:last-child {
+    right: 0;
+    position: absolute;
+}
+.navbar_main li:hover {
+    background-color: #0AC8FF;
+    color: #fffffa;
+}
+.active {
+    background-color: #0AC8FF;
+    color: #fffffa;
+    text-decoration: underline;
 }
 
 
@@ -58,7 +70,7 @@ body {
 
 .content {
     text-align: center;
-    color: black;
+    color: #404040;
 }
 
 .contentFooter {
@@ -66,7 +78,11 @@ body {
     bottom: 0;
     width: 100%;
     height: var(--footer_ht);
-    border-top: solid 1px #fffffa;
+    border-top: solid 1px #404040;
+    background: #fffffa;
     text-align: center;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    
     
 }

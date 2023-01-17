@@ -1,5 +1,5 @@
 :root {
-    --footer_ht: 60px;
+    --footer_ht: 30px;
 }    
 /* Main page styles */
 body {
@@ -41,10 +41,7 @@ body {
     text-align: center;
     color: var(body(color));
 }
-.navbar_main li:last-child {
-    right: 0;
-    position: absolute;
-}
+
 .navbar_main li:hover {
     background-color: #0AC8FF;
     color: #fffffa;
@@ -82,7 +79,7 @@ body {
     background: #fffffa;
     text-align: center;
     display: inline-grid;
-    grid-template-columns: auto auto auto;
-    
-    
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    column-gap: 30px;
 }

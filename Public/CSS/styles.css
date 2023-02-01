@@ -93,7 +93,7 @@ body {
 /* Resume Page */
 .skill_summary_resume {
     text-align: left;
-    font-size: 10pt;
+    font-size: 12pt;
     display: grid;
     border-bottom: 2px solid #282828;
 }
@@ -102,7 +102,16 @@ body {
     display: grid;
     border-bottom: 2px solid #282828;
 }
-
+.jr_automation {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.intertek {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 #robotics_resume {
     width: 30%;
     border-radius: 5px;

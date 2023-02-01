@@ -91,9 +91,16 @@ body {
 
 
 /* Resume Page */
-.professional_projects_resume {
+.skill_summary_resume {
     text-align: left;
+    font-size: 10pt;
     display: grid;
+    border-bottom: 2px solid #282828;
+}
+.company_containers_resume {
+    text-align: center;
+    display: grid;
+    border-bottom: 2px solid #282828;
 }
 
 #robotics_resume {
@@ -113,43 +120,51 @@ body {
     border-radius: 5px;
     background-color: #ffde04;
     width: 85%;
+    padding-left: 5px;
 }
 #abb {
     border-radius: 5px;
     background-color: #ffffff;
     width: 40%;
+    padding-left: 5px;
 }
 #yaskawa {
     border-radius: 5px;
     background-color: #3243ff;
     color: #fffffa;
     width: 25%;
+    padding-left: 5px;
 }
 #python {
     border-radius: 5px;
     background-color: #3731e1;
     color: #fffffa;
     width: 90%;
+    padding-left: 5px;
 }
 #javascript {
     border-radius: 5px;
     background-color: #eed72e;
     width: 70%;
+    padding-left: 5px;
 }
 #cpp {
     border-radius: 5px;
     background-color: #000b87;
     color: #fffffa;
     width: 50%;
+    padding-left: 5px;
 }
 #frontend {
     border-radius: 5px;
     background-color: #e32e2e;
     color: #fffffa;
     width: 60%;
+    padding-left: 5px;
 }
 #shell {
     border-radius: 5px;
     background-color: #1ff566;
     width: 20%;
+    padding-left: 5px;
 }

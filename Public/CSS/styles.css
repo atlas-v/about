@@ -88,3 +88,68 @@ body {
     grid-auto-flow: column;
     column-gap: 30px;
 }
+
+
+/* Resume Page */
+.professional_projects_resume {
+    text-align: left;
+    display: grid;
+}
+
+#robotics_resume {
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid #282828;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 3px;
+}
+.skill {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #616161;
+}
+#fanuc {
+    border-radius: 5px;
+    background-color: #ffde04;
+    width: 85%;
+}
+#abb {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 40%;
+}
+#yaskawa {
+    border-radius: 5px;
+    background-color: #3243ff;
+    color: #fffffa;
+    width: 25%;
+}
+#python {
+    border-radius: 5px;
+    background-color: #3731e1;
+    color: #fffffa;
+    width: 90%;
+}
+#javascript {
+    border-radius: 5px;
+    background-color: #eed72e;
+    width: 70%;
+}
+#cpp {
+    border-radius: 5px;
+    background-color: #000b87;
+    color: #fffffa;
+    width: 50%;
+}
+#frontend {
+    border-radius: 5px;
+    background-color: #e32e2e;
+    color: #fffffa;
+    width: 60%;
+}
+#shell {
+    border-radius: 5px;
+    background-color: #1ff566;
+    width: 20%;
+}

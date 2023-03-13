@@ -1,0 +1,189 @@
+
+
+
+
+
+
+
+
+/* Real */
+
+:root {
+    --footer_ht: 30px;
+}    
+/* Main page styles */
+body {
+    background-color: #303030;
+    margin: 8px;
+}
+
+/* Class Styles */
+
+
+
+/* Navigation Menu Styles */
+.navbar_main {
+    position: sticky;
+    list-style-type: none;
+    white-space: nowrap;
+    z-index: 1;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: none;
+    background: #fffffa;
+    border-radius: 5px 5px 0 0;
+    color: #404040;
+    font-size: 14px;
+    font-family: Oxanium;
+}
+
+
+/* Nav bar link styles */
+.navbar_main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar_main li {
+    float: left;
+}
+.navbar_main li a{
+    display: block;
+    color: #282828;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+.navbar_main li a:hover{
+    color: #fffffa;
+    background-color: #0AC8FF;
+}
+.active {
+    color: #fffffa;
+    background-color: #0AC8FF;
+    border-radius: 5px 0 0 0;
+}
+
+/* Content Styles */
+
+.content_wrapper {
+    position: relative;
+    overflow: auto;
+    background-color: #cbcbcb;
+    width: auto;
+    min-height: 100%;
+    padding-bottom: var(--footer_ht);
+    border-radius: 0 0 5px 5px;
+}
+
+.content {
+    text-align: center;
+    color: #404040;
+}
+
+.contentFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: var(--footer_ht);
+    border-top: solid 1px #0AC8FF;
+    background: #fffffa;
+    text-align: center;
+    font-family: Oxanium light;
+    font-size: 10pt;
+    display: inline-grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    column-gap: 30px;
+}
+
+
+/* Resume Page */
+.skill_summary_resume {
+    text-align: left;
+    font-size: 12pt;
+    display: grid;
+    border-bottom: 2px solid #282828;
+}
+.company_containers_resume {
+    text-align: center;
+    display: grid;
+    border-bottom: 2px solid #282828;
+}
+.jr_automation {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.intertek {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#robotics_resume {
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid #282828;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 3px;
+}
+.skill {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #616161;
+}
+#fanuc {
+    border-radius: 5px;
+    background-color: #ffde04;
+    width: 85%;
+    padding-left: 5px;
+}
+#abb {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 40%;
+    padding-left: 5px;
+}
+#yaskawa {
+    border-radius: 5px;
+    background-color: #3243ff;
+    color: #fffffa;
+    width: 25%;
+    padding-left: 5px;
+}
+#python {
+    border-radius: 5px;
+    background-color: #3731e1;
+    color: #fffffa;
+    width: 90%;
+    padding-left: 5px;
+}
+#javascript {
+    border-radius: 5px;
+    background-color: #eed72e;
+    width: 70%;
+    padding-left: 5px;
+}
+#cpp {
+    border-radius: 5px;
+    background-color: #000b87;
+    color: #fffffa;
+    width: 50%;
+    padding-left: 5px;
+}
+#frontend {
+    border-radius: 5px;
+    background-color: #e32e2e;
+    color: #fffffa;
+    width: 60%;
+    padding-left: 5px;
+}
+#shell {
+    border-radius: 5px;
+    background-color: #1ff566;
+    width: 20%;
+    padding-left: 5px;
+}

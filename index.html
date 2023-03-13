@@ -1,64 +1,153 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <title>Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!-- Local Link -->
         <link rel="stylesheet" type="text/css" href="Public\CSS\styles.css"/>
-        <link rel="icon" type="image/png" href= "Public\res\blue_icon.png" />
+        <link rel="icon" type="image/png" href="Public\res\blue_icon.png" />
         <!-- Live Link -->
         <link rel="stylesheet" type="text/css" href="../about/Public/CSS/styles.css" />
-        <link rel="icon" type="image/png" href= "../about/Public/res/blue_icon.png" />
-        
+        <link rel="icon" type="image/png" href="../about/Public/res/blue_icon.png" />
+        <!-- External Links-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     </head>
     <body>
-        <!-- Header -->
-        <div class="header">
-            <style>
-                /* Header Styles */
-                .header {
-                    text-align: center;
-                    color: #0AC8FF;
-                    font-size: 24px;
-                    font-family: Oxanium ExtraLight;
-                }
-                .header a {
-                    color: #fffffa
-                }
-            </style>
-            <p><a>ATLAS</a> | HOME</p>
-        </div>
-
-        <!-- Navigation Menu -->
-        <div class="navbar_main">
-            <ul>
-                <li><a class="active" href="./index.html">Home</a></li>
-                <li><a href="./pages/resume.html">Resume</a></li>
-                <li><a href="./pages/software.html">Software</a></li>
-                <li><a href="./pages/electronics.html">Electronics</a></li>
-            </ul>
-        </div>
-        <div class="content_wrapper">
-
-            <!-- Main Content -->
-            <div class="content">
-                <h2>Home Page</h2>
-                <p>COMING SOON...</p>
-                <p>This website serves to host information displaying:</p>
-                <li>Resume</li>
-                <li>Professional Project Experience</li>
-                <li>Interests</li>
-                <li>Home Projects [software, hardware]</li>
+        <main>
+            <div class="wallpaper"></div>
+            <section id="home">
+                <header>
+                    <nav class="navbar">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="section_content" id="home_content">Main intro content</div>
+            </section>
+            <section id="about">
+                <div class="section_content" id="about_content">about content</div>
+            </section>
+            <section id="projects">
+                <div class="section_content" id="projects_content">
+                    <div class="card_container">
+                        <div class="card_column">
+                            <div class="card">
+                                <h1>Project: </h1>
+                                <img src="Public\res\circuit.jpg" class="card_img">
+                                <p class="card_description">project brief</p>
+                            </div>
+                        </div>
+                        <div class="card_column">
+                            <div class="card">
+                                <h1>Project: </h1>
+                                <img src="Public\res\circuit.jpg" class="card_img">
+                                <p class="card_description">project brief</p>
+                            </div>
+                        </div>
+                        <div class="card_column">
+                            <div class="card">
+                                <h1>Project: </h1>
+                                <img src="Public\res\circuit.jpg" class="card_img">
+                                <p class="card_description">project brief</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section id="skills">
+                <div class="section_content" id="skills_content">skills</div>
+            </section>
+            <a href="#home">
+                <div class="navigate_top">
+                    <div class="arrow"></div>
+                </div>
+            </a>
+            
+            <!--
+            <div class="animations">
+                <div class="content_up"></div>
+                <div class="content_down"></div>
+                <div class="content_right"></div>
+                <div class="content_left"></div>
             </div>
-            <!-- Footer Content -->
-            <div class="contentFooter">
-                <div>Project Collab</div>
-                <div>Based in USA</div>
-                <div>
-                <a href="mailto:rbaumann99@gmail.com?subject=Web Referral (subject) |">Contact</a>
+            -->
+            <div class="side_content">
+                <div class="sidebar">
+                    <li>
+                        <a href="https://www.linkedin.com/in/ryanbaumann616/"><i class="fa fa-linkedin-square" style="font-size:24px;color:var(--light)"></i></a>
+                    </li>
+                    <li>
+                        <a><i class="fa fa-file-pdf-o" style="font-size:24px;color:var(--light)"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/atlas-v"><i class="fa fa-github" style="font-size:24px;color:var(--light)"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:rbaumann99@gmail.com"><i class="fa fa-envelope" style="font-size:20.6px;color:var(--light)"></i></a>
+                    </li>
                 </div>
             </div>
-        </div>
+        </main>
+        <footer>
+            <div>Created by Ryan Baumann 2023</div>
+        </footer>
     </body>
 </html>
+
+<!--
+<div class="header">
+    <style>
+        /* Header Styles */
+        .header {
+            text-align: center;
+            color: #0AC8FF;
+            font-size: 24px;
+            font-family: Oxanium ExtraLight;
+        }
+        .header a {
+            color: #fffffa
+        }
+    </style>
+    <p><a>ATLAS</a> | HOME</p>
+</div>
+
+<!-- Navigation Menu -->
+<!--
+<div class="navbar_main">
+    <ul>
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a href="./pages/resume.html">Resume</a></li>
+        <li><a href="./pages/software.html">Software</a></li>
+        <li><a href="./pages/electronics.html">Electronics</a></li>
+    </ul>
+</div>
+<div class="content_wrapper">
+
+    <!-- Main Content -->
+    <!--
+    <div class="content">
+        <h2>Home Page</h2>
+        <p>COMING SOON...</p>
+        <p>This website serves to host information displaying:</p>
+        <li>Resume</li>
+        <li>Professional Project Experience</li>
+        <li>Interests</li>
+        <li>Home Projects [software, hardware]</li>
+    </div>
+    <!-- Footer Content -->
+    <!--
+    <div class="contentFooter">
+        <div>Project Collab</div>
+        <div>Based in USA</div>
+        <div>
+            <a href="mailto:rbaumann99@gmail.com?subject=Web Referral (subject) |">Contact</a>
+        </div>
+    </div>
+</div>
+-->

@@ -9,7 +9,7 @@
     height: 400px;
     width: 400px;
     position: relative;
-    animation: rotate-counterclockwise 5s linear infinite;
+    animation: rotate-counterclockwise 10s linear infinite;
 }
 
 .gear {

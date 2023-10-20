@@ -58,7 +58,7 @@ header {
 footer {
     margin: auto;
     min-height: 200px;
-    max-width: 30%;
+    max-width: 50%;
     background-color: var(--dark);
 }
 

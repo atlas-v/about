@@ -1,0 +1,83 @@
+.gear-container {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    animation: rotate-clockwise 3s linear infinite;
+}
+
+.gear-container-2 {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    animation: rotate-counterclockwise 3s linear infinite;
+}
+
+.gear {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    Transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.gear .center {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    z-index: 3;
+    Transform: translate(-50%, -50%);
+    background-color: #404040;
+    border-radius: 50%;
+}
+
+.tooth {
+    position: absolute;
+    width: 25%;
+    height: 125%;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    Transform: translate(-50%, -50%);
+    background: #ffffff;
+}
+
+.tooth:nth-child(2) {
+    position: absolute;
+    Transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.tooth:nth-child(3) {
+    Transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.tooth:nth-child(4) {
+    Transform: translate(-50%, -50%) rotate(135deg);
+}
+
+
+@keyframes rotate-clockwise {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-counterclockwise {
+    0% {
+        transform: rotate(360deg);
+
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

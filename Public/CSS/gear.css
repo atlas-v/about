@@ -2,7 +2,7 @@
     height: 50px;
     width: 50px;
     position: relative;
-    animation: rotate-clockwise 3s linear infinite;
+    animation: rotate-clockwise 10s linear infinite;
 }
 
 .gear-container-2 {
